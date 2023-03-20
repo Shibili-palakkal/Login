@@ -25,6 +25,7 @@ public class Screenshot1 {
 
         // close the driver
         driver.quit();
+        
 
 	}
 
