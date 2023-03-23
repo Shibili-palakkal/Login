@@ -14,9 +14,9 @@ public class GmailLogin {
 		driver.get("https://mail.google.com/");
 		driver.manage().window().maximize();
 		String expectedTitleString=" Sign in - Google Accounts ";
-		String actualTileString=driver.getTitle();
+		String actualtitleString=driver.getTitle();
 		Object equals;
-		if(expectedTitleString.equals(actualTileString))
+		if(expectedTitleString.equals(actualtitleString))
 		{
 			System.out.println("Verification Successful - The correct title is displayed on the web page.");
 			
